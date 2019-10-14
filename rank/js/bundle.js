@@ -51,7 +51,7 @@ var Main = /** @class */ (function () {
         Laya.isWXOpenDataContext = true;
         Laya.isWXPosMsg = true;
         //根据IDE设置初始化引擎		
-        Laya.init(GameConfig_1.default.width, GameConfig_1.default.height);
+        Laya.init(GameConfig_1.default.width, GameConfig_1.default.height,Laya["WebGL"]);
         Laya.stage.scaleMode = GameConfig_1.default.scaleMode;
         Laya.stage.screenMode = GameConfig_1.default.screenMode;
         Laya.stage.alignV = GameConfig_1.default.alignV;
